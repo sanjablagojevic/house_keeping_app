@@ -35,7 +35,7 @@ class MyHomePage extends StatelessWidget{
                         Text(
                           'HouseKeeping Service',
                           style: TextStyle(
-                            fontSize: 44,
+                            fontSize: 36,
                             fontWeight: FontWeight.w900,
                             color: const Color(0xffffffff),
                           ),
@@ -90,7 +90,7 @@ class MyHomePage extends StatelessWidget{
                                           Text(
                                             info[index].name,
                                             style: TextStyle(
-                                              fontSize: 44,
+                                              fontSize: 24,
                                               fontWeight: FontWeight.w900,
                                               color: const Color(0xff47455f),
                                             ),
@@ -99,7 +99,7 @@ class MyHomePage extends StatelessWidget{
                                           Text(
                                             'Services',
                                             style: TextStyle(
-                                              fontSize: 23,
+                                              fontSize: 18,
                                               fontWeight: FontWeight.w500,
                                               color: primaryTextColor,
                                             ),
@@ -111,7 +111,7 @@ class MyHomePage extends StatelessWidget{
                                               Text(
                                                 'Know more',
                                                 style: TextStyle(
-                                                  fontSize: 18,
+                                                  fontSize: 16,
                                                   fontWeight: FontWeight.w500,
                                                   color: secondaryTextColor,
                                                 ),
@@ -127,11 +127,14 @@ class MyHomePage extends StatelessWidget{
                                   ),
                                 ],
                               ),
-                              Hero(
+                              SizedBox(
+                                height:200,
+                                child:Hero(
                                 tag:info[index].position,
                                 child: Image.asset(
                                   info[index].iconImage,
                                 ),
+                              ),
                               ),
                             ],
                           ),

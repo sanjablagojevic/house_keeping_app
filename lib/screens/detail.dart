@@ -31,17 +31,17 @@ class DetailPage extends StatelessWidget{
                           style: TextStyle(
                             fontFamily: 'Avenir',
                             fontSize: 56,
-                            color: Colors.white,
+                            color: Colors.black,
                             fontWeight: FontWeight.w900,
                           ),
                           textAlign: TextAlign.left,
                         ),
                         Text(
-                          'Solar System',
+                          'Usluge',
                           style: TextStyle(
                             fontFamily: 'Avenir',
                             fontSize: 31,
-                            color: Colors.white,
+                            color: Colors.black,
                             fontWeight: FontWeight.w300,
                           ),
                           textAlign: TextAlign.left,
@@ -55,7 +55,7 @@ class DetailPage extends StatelessWidget{
                           style: TextStyle(
                             fontFamily: 'Avenir',
                             fontSize: 20,
-                            color: Colors.white,
+                            color: Colors.black,
                             fontWeight: FontWeight.w500,
                           ),
                         ),
@@ -104,7 +104,8 @@ class DetailPage extends StatelessWidget{
               ),
             ),
             Positioned(
-              right: -64,
+              top: 5,
+              right: 64,
               child: Image.asset(info.iconImage),
             ),
             Positioned(
