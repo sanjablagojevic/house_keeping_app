@@ -22,7 +22,10 @@ List<HouseKeepingInfo> info=[
   HouseKeepingInfo(2, name:'Furniture Assembly', iconImage: 'assets/images/meeting.png',
       description: 'Here\'s how it works -- just go to our website or app and tell us your zipcode and how big your house, apartment, or flat is. Handy will then connect you with a top-rated home cleaning professional to help take the stress out of your life.'
       , images: []),
-  HouseKeepingInfo(3, name:'Air Conditioner Installation', iconImage: 'assets/images/air-conditioner.png',
+  HouseKeepingInfo(3, name:'Handyman Service', iconImage: 'assets/images/air-conditioner.png',
+      description: 'Here\'s how it works -- just go to our website or app and tell us your zipcode and how big your house, apartment, or flat is. Handy will then connect you with a top-rated home cleaning professional to help take the stress out of your life.'
+      , images: []),
+  HouseKeepingInfo(4, name:'Interior Painting', iconImage: 'assets/images/air-conditioner.png',
       description: 'Here\'s how it works -- just go to our website or app and tell us your zipcode and how big your house, apartment, or flat is. Handy will then connect you with a top-rated home cleaning professional to help take the stress out of your life.'
       , images: [])
 ];
