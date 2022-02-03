@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:house_keeping_app/screens/bottom_nav_bar.dart';
+import 'package:house_keeping_app/screens/explore-screen.dart';
 import 'package:house_keeping_app/screens/home_page.dart';
 import 'package:house_keeping_app/screens/profile_screen.dart';
 
@@ -18,8 +19,10 @@ class MyApp extends StatelessWidget{
       ),
       home: BottomBar(),
       routes: {
+        ExploreScreen.routeName:(ctx)=>ExploreScreen(),
         ProfileScreen.routeName:(ctx)=>ProfileScreen(),
         BottomBar.routeName: (ctx) => BottomBar(),
+        MyHomePage.routeName: (ctx) => MyHomePage(),
       },
       debugShowCheckedModeBanner: false,
     );

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:house_keeping_app/screens/profile_screen.dart';
 
+import 'explore-screen.dart';
 import 'home_page.dart';
 
 class BottomBar extends StatefulWidget{
@@ -16,6 +17,8 @@ class BottomBar extends StatefulWidget{
 class _BottomBarState extends State<BottomBar>{
   int _currentIndex=0;
   List page=[
+    MyHomePage(),
+    ExploreScreen(),
     ProfileScreen(),
   ];
 

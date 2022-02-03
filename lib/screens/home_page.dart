@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:house_keeping_app/data.dart';
 
+import 'detail.dart';
+
 class MyHomePage extends StatelessWidget{
 
   static const routeName='home-page';
@@ -62,7 +64,7 @@ class MyHomePage extends StatelessWidget{
                               context,
                               PageRouteBuilder(
                                 pageBuilder: (context,a,b)=>DetailPage(
-                                  servicesInfo: info[index], key: null,
+                                  info: info[index], key: null,
                                 ),
                               ),
                             );
