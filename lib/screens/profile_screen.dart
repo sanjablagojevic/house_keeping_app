@@ -7,11 +7,14 @@ class ProfileScreen extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body:
+        Container(
         height: double.infinity,
         width: double.infinity,
         color: Colors.white,
-        child: Column(
+        child: Padding(
+          padding: new EdgeInsets.fromLTRB(0,50,0,0),
+          child: Column(
           children: [
             Container(
               child: Lottie.network(
@@ -30,6 +33,7 @@ class ProfileScreen extends StatelessWidget{
             ),
           ],
         ),
+      ),
       ),
     );
   }

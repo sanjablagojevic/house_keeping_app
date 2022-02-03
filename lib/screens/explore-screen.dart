@@ -10,6 +10,8 @@ class ExploreScreen extends StatelessWidget {
         height: double.infinity,
         width: double.infinity,
         color: Colors.white,
+        child: Padding(
+        padding: new EdgeInsets.fromLTRB(0,50,0,0),
         child: Column(
           children: [
             Container(
@@ -28,6 +30,7 @@ class ExploreScreen extends StatelessWidget {
               ),
             ),
           ],
+        ),
         ),
       ),
     );

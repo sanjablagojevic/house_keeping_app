@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:house_keeping_app/data.dart';
 
+import '../constant.dart';
 import 'detail.dart';
 
 class MyHomePage extends StatelessWidget{
@@ -17,7 +18,7 @@ class MyHomePage extends StatelessWidget{
           child:Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
-                colors: [Colors.white,Colors.blue],
+                colors: [gradientStartColor,gradientEndColor],
                 begin:Alignment.topCenter,
                 end: Alignment.bottomCenter,
                 stops: [0.3,0.7],
@@ -96,11 +97,11 @@ class MyHomePage extends StatelessWidget{
                                             textAlign: TextAlign.left,
                                           ),
                                           Text(
-                                            'Solar System',
+                                            'Services',
                                             style: TextStyle(
                                               fontSize: 23,
                                               fontWeight: FontWeight.w500,
-                                              color: Colors.white,
+                                              color: primaryTextColor,
                                             ),
                                             textAlign: TextAlign.left,
                                           ),
@@ -112,12 +113,11 @@ class MyHomePage extends StatelessWidget{
                                                 style: TextStyle(
                                                   fontSize: 18,
                                                   fontWeight: FontWeight.w500,
-                                                  color: Colors.white,
+                                                  color: secondaryTextColor,
                                                 ),
                                               ),
                                               Icon(
-                                                Icons.arrow_forward,
-                                                color:Colors.white,
+                                                Icons.arrow_forward, color:secondaryTextColor,
                                               ),
                                             ],
                                           ),
