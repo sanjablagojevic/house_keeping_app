@@ -82,7 +82,7 @@ class _BottomBarState extends State<BottomBar>{
                         ),
                         GButton(
                           icon: Icons.person_outline,
-                          text: 'Search',
+                          text: 'Explore',
                         ),
                       ],
                     ),
