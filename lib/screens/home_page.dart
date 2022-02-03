@@ -62,7 +62,7 @@ class MyHomePage extends StatelessWidget{
                               context,
                               PageRouteBuilder(
                                 pageBuilder: (context,a,b)=>DetailPage(
-                                  planetInfo: info[index], key: null,
+                                  servicesInfo: info[index], key: null,
                                 ),
                               ),
                             );
