@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:house_keeping_app/constant.dart';
 import 'package:house_keeping_app/screens/profile_screen.dart';
+import 'package:house_keeping_app/screens/explore-screen.dart';
 
 import 'explore-screen.dart';
 import 'home_page.dart';
@@ -50,11 +52,11 @@ class _BottomBarState extends State<BottomBar>{
                       haptic: true,
                       tabBorderRadius: 15,
                       tabActiveBorder: Border.all(
-                          color: Colors.white,
+                          color: gradientStartColor,
                           width: 1
                       ),
                       tabBorder: Border.all(
-                        color: Colors.blue,
+                        color: gradientStartColor,
                         width: 1,
                       ),
                       curve: Curves.easeIn,

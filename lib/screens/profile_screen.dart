@@ -10,7 +10,7 @@ class ProfileScreen extends StatelessWidget{
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: Colors.black,
+        color: Colors.white,
         child: Column(
           children: [
             Container(
@@ -24,7 +24,7 @@ class ProfileScreen extends StatelessWidget{
             ),
             Text('Create account to\n   save your data',
               style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black,
                   fontSize: 36
               ),
             ),

@@ -9,7 +9,7 @@ class ExploreScreen extends StatelessWidget {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: Colors.black,
+        color: Colors.white,
         child: Column(
           children: [
             Container(
@@ -23,7 +23,7 @@ class ExploreScreen extends StatelessWidget {
             ),
             Text('Explore services\n     that we offer',
               style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black,
                   fontSize: 36
               ),
             ),
