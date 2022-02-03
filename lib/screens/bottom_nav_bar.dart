@@ -64,8 +64,8 @@ class _BottomBarState extends State<BottomBar>{
                         milliseconds: 500,
                       ),
                       gap: 8,
-                      color: Colors.white,
-                      activeColor: Colors.white,
+                      color: Colors.black,
+                      activeColor: Colors.black,
                       iconSize: 32,
                       padding: EdgeInsets.symmetric(
                           horizontal: 20,
