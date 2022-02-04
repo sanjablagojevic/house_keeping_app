@@ -5,5 +5,28 @@ Color secondaryTextColor = Color(0xFFE4979E);
 Color titleTextColor = Colors.white;
 Color contentTextColor = Color(0xff868686);
 Color navigationColor = Color(0xFF6751B5);
-Color gradientStartColor = Color(0xFF0050AC);
+Color gradientStartColor =  Color(0xFF478DE0);
 Color gradientEndColor = Color(0xFFFFFFFF);
+
+final kHintTextStyle = TextStyle(
+  color: Colors.white54,
+  fontFamily: 'OpenSans',
+);
+
+final kLabelStyle = TextStyle(
+  color: Colors.white,
+  fontWeight: FontWeight.bold,
+  fontFamily: 'OpenSans',
+);
+
+final kBoxDecorationStyle = BoxDecoration(
+  color: Color(0xFF6CA8F1),
+  borderRadius: BorderRadius.circular(10.0),
+  boxShadow: [
+    BoxShadow(
+      color: Colors.black12,
+      blurRadius: 6.0,
+      offset: Offset(0, 2),
+    ),
+  ],
+);

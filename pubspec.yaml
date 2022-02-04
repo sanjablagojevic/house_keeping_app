@@ -31,6 +31,7 @@ dependencies:
   flutter_swiper: ^1.1.6
   google_nav_bar: ^5.0.5
   lottie: ^1.2.1
+  flutter_login: ^2.1.0
 
 dev_dependencies:
   flutter_test:

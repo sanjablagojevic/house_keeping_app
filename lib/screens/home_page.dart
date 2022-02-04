@@ -57,6 +57,8 @@ class MyHomePage extends StatelessWidget{
                         builder: DotSwiperPaginationBuilder(
                           activeSize: 20,
                           space: 8,
+                          color: Color(0xFF6CA8F1),
+                          activeColor: gradientStartColor,
                         ),
                       ),
                       itemBuilder: (context,index){

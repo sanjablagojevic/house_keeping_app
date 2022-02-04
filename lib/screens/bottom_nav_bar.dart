@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:house_keeping_app/screens/login_screen.dart';
 import 'package:house_keeping_app/screens/profile_screen.dart';
 import 'package:house_keeping_app/screens/explore-screen.dart';
 
@@ -20,7 +21,8 @@ class _BottomBarState extends State<BottomBar>{
   List page=[
     MyHomePage(),
     ExploreScreen(),
-    ProfileScreen(),
+    //ProfileScreen(),
+    LoginScreen(),
   ];
 
   @override

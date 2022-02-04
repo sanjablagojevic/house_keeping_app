@@ -17,6 +17,8 @@ class ProfileScreen extends StatelessWidget{
           child: Column(
           children: [
             Container(
+              width: 200,
+              height: 200,
               child: Lottie.network(
                   'https://assets7.lottiefiles.com/packages/lf20_1h1casbp.json',
                   repeat: true
@@ -25,15 +27,15 @@ class ProfileScreen extends StatelessWidget{
             SizedBox(
               height: 50,
             ),
-            Text('Create account to\n   save your data',
+            Text('Sign In',
               style: TextStyle(
                   color: Colors.black,
-                  fontSize: 36
+                  fontSize: 30
               ),
             ),
           ],
+          ),
         ),
-      ),
       ),
     );
   }
