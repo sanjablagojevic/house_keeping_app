@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:lottie/lottie.dart';
 
 import '../constant.dart';
 
@@ -208,11 +209,22 @@ class _LoginScreenState extends State<LoginScreen> {
                   physics: AlwaysScrollableScrollPhysics(),
                   padding: EdgeInsets.symmetric(
                     horizontal: 40.0,
-                    vertical: 120.0,
+                    vertical: 20.0,
                   ),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
+                      Container(
+                        width: 100,
+                        height: 100,
+                        child: Lottie.network(
+                            'https://assets1.lottiefiles.com/packages/lf20_iaht8ylc.json',
+                            repeat: true
+                        ),
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
                       Text(
                         'Sign In',
                         style: TextStyle(
