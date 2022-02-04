@@ -3,6 +3,7 @@ import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:house_keeping_app/screens/login_screen.dart';
 import 'package:house_keeping_app/screens/profile_screen.dart';
 import 'package:house_keeping_app/screens/explore-screen.dart';
+import 'package:house_keeping_app/screens/signup.dart';
 
 import 'explore-screen.dart';
 import 'home_page.dart';
@@ -23,6 +24,7 @@ class _BottomBarState extends State<BottomBar>{
     ExploreScreen(),
     //ProfileScreen(),
     LoginScreen(),
+    SignupPage(),
   ];
 
   @override
