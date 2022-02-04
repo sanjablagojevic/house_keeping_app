@@ -5,6 +5,7 @@ import 'package:house_keeping_app/screens/profile_screen.dart';
 import 'package:house_keeping_app/screens/explore-screen.dart';
 import 'package:house_keeping_app/screens/signup.dart';
 
+import 'contact_us.dart';
 import 'explore-screen.dart';
 import 'home_page.dart';
 
@@ -21,7 +22,7 @@ class _BottomBarState extends State<BottomBar>{
   int _currentIndex=0;
   List page=[
     MyHomePage(),
-    ExploreScreen(),
+    ContactUs(),
     //ProfileScreen(),
     LoginScreen(),
   ];
@@ -79,8 +80,8 @@ class _BottomBarState extends State<BottomBar>{
                           text: 'Home',
                         ),
                         GButton(
-                          icon: Icons.explore_outlined,
-                          text: 'Explore',
+                          icon: Icons.mail,
+                          text: 'Contact Us',
                         ),
                         GButton(
                           icon: Icons.person_outline,
