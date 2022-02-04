@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:house_keeping_app/data.dart';
@@ -74,7 +75,7 @@ class MyHomePage extends StatelessWidget{
                             children: [
                               Column(
                                 children: [
-                                  SizedBox(height:100),
+                                  SizedBox(height:130),
                                   Card(
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(32),
@@ -86,7 +87,7 @@ class MyHomePage extends StatelessWidget{
                                       child: Column(
                                         crossAxisAlignment: CrossAxisAlignment.start,
                                         children: [
-                                          SizedBox(height: 100),
+                                          SizedBox(height: 120),
                                           Text(
                                             info[index].name,
                                             style: TextStyle(
@@ -127,7 +128,9 @@ class MyHomePage extends StatelessWidget{
                                   ),
                                 ],
                               ),
-                              SizedBox(
+                              Padding(
+                                padding: EdgeInsets.fromLTRB(0,20,0,0),
+                                child:SizedBox(
                                 height:200,
                                 child:Hero(
                                 tag:info[index].position,
@@ -135,6 +138,7 @@ class MyHomePage extends StatelessWidget{
                                   info[index].iconImage,
                                 ),
                               ),
+                               ),
                               ),
                             ],
                           ),
