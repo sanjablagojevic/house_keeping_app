@@ -23,7 +23,7 @@ class _BottomBarState extends State<BottomBar>{
   List page=[
     MyHomePage(),
     ContactUs(),
-    //ProfileScreen(),
+    ProfileScreen(),
     LoginScreen(),
   ];
 
@@ -69,9 +69,9 @@ class _BottomBarState extends State<BottomBar>{
                       gap: 8,
                       color: Colors.black,
                       activeColor: Colors.black,
-                      iconSize: 32,
+                      iconSize: 24,
                       padding: EdgeInsets.symmetric(
-                          horizontal: 20,
+                          horizontal: 10,
                           vertical: 5
                       ),
                       tabs: [
@@ -82,6 +82,10 @@ class _BottomBarState extends State<BottomBar>{
                         GButton(
                           icon: Icons.mail,
                           text: 'Contact Us',
+                        ),
+                        GButton(
+                          icon: Icons.add_shopping_cart,
+                          text: 'Order',
                         ),
                         GButton(
                           icon: Icons.person_outline,
